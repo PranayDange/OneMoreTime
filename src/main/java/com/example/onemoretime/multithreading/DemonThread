@@ -1,0 +1,8 @@
+Deamon thread in java is a service provider thread that provides services to the user thread
+
+
+setDeamon(Boolean)
+
+public Boolean isDeamon()
+
+#garbage collector is the best example of deamon thread

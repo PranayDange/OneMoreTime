@@ -1,0 +1,53 @@
+
+    //Multithreading in java is a process of executing multiple threads simultaneously
+    //multithreading is done for multi tasking
+    //to acheive multitasking multi threading is done
+
+
+    // a thread is a lightweight sub-process the smallest unit of processing
+
+
+    //creating thread in java
+    //using Runnable interface
+    //using Thread class
+
+
+    //using Runnable interface
+    /*interface Runnable{
+        run();
+    }*/
+    //example of Runnable Interface
+   /* class MyThread implements Runnable{
+
+        @Override
+        public void run() {
+            //task
+        }
+    }
+    MyThread t = new MyThread();
+    Thread thread = new Thread(t);
+    thread.start();*/
+
+    //using Thread class
+    /*class Thread extends Thread {
+        }*/
+    //example of thread class
+   /* class MyThread extends Thread{
+        @Override
+        public void run() {
+            //task
+        }
+    }
+    //MyThread t = new MyThread();
+    t.start();*/
+
+    //some thread methods are :-
+    1.run()
+    2.start()
+    3.sleep()
+    4.join()
+    5.interrupt()
+    6.resume()
+    7.stop()
+
+
