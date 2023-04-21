@@ -1,0 +1,24 @@
+Why Recursion??
+
+recursion is actually function calling itself
+this are function call linked to one another
+
+
+
+we need recursion because it helps us in solving bigger/complex problem in simpler way
+you can convert recursion solution into iteration and vice-versa
+it helps us in breaking down bigger problems into smaller problems
+
+
+convert recursion to iteration
+and
+iteration to recursion
+
+
+space complexity is not constant  because of recursive calls
+
+
+
+visualizing recursion
+
+

@@ -1,23 +1,35 @@
 package com.example.onemoretime.arraysk;
 
+import jnr.ffi.annotations.In;
+
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class Practice {
     public static void main(String[] args) {
-        // Input: nums = [1,2,1]
-        // Output: [1,2,1,1,2,1]
-        int[] p = {1,2,1};
-        print(p);
+        int[] arr = {2, 3, 5, 1, 3};
+        int num = 3;
+        kidsWithCandies(arr, num);
     }
 
-    public static int[] print(int[] nums) {
-        int n = nums.length;
-        int[] ans = new int[n];
-        for (int i = 0; i < n; i++) {
-            ans[i] = nums[i];
-            ans[i + n] = nums[i];
+    public static List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
+        List<Boolean> candi = new ArrayList<>();
+        boolean flag = false;
+        for (int i = 0; i < candies.length; i++) {
+            if (candies[i] + extraCandies < candies[i]) {
+                flag = true;
+            }
         }
-        System.out.println(Arrays.toString(ans));
-        return ans;
+        if (flag) {
+            candi.add(false);
+        } else {
+            candi.add(true);
+        }
+        System.out.println(Arrays.toString(new List[]{candi}));
+        return candi;
+
     }
+
 }
+

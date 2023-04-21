@@ -19,7 +19,7 @@ public class RunningSumOf1dArray {
         for (int i = 0; i < n; i++) {
             //   sum = nums[i];
             // ans[i] = nums[i] + sum;
-            sum = nums[i] + sum;
+            sum = sum + nums[i];
             ans[i] = sum;
         }
         System.out.println(Arrays.toString(ans));
