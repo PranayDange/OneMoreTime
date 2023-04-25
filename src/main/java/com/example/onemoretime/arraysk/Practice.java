@@ -8,28 +8,24 @@ import java.util.List;
 
 public class Practice {
     public static void main(String[] args) {
-        int[] arr = {2, 3, 5, 1, 3};
-        int num = 3;
-        kidsWithCandies(arr, num);
-    }
 
-    public static List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
-        List<Boolean> candi = new ArrayList<>();
-        boolean flag = false;
-        for (int i = 0; i < candies.length; i++) {
-            if (candies[i] + extraCandies < candies[i]) {
-                flag = true;
-            }
-        }
-        if (flag) {
-            candi.add(false);
-        } else {
-            candi.add(true);
-        }
-        System.out.println(Arrays.toString(new List[]{candi}));
-        return candi;
+        //   input ans = {1, 2, 3, 4, 5};
+        //   output ans = [15]
+        int[] ansA = {1, 2, 3, 4, 5};
+        printArraySum(ansA);
 
     }
+
+    static int printArraySum(int[] arr) {
+        int ans = 0;
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = arr[i]+ans;
+            ans=arr[i];
+        }
+        System.out.println(ans);
+        return ans;
+    }
+
 
 }
 
