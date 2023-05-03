@@ -2,7 +2,7 @@ package com.example.onemoretime.arraysk;
 
 public class FindTheIthElement {
     public static void main(String[] args) {
-        int[] array = {4, 3, 6, 7, 9, 7, 5};
+        int[] array = {4, 3, 6, 7, 9, 7, 59};
         int target = 59;
         printIthTerm(array, target);
     }

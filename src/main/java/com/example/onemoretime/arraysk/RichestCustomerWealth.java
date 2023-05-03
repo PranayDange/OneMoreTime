@@ -9,7 +9,7 @@ public class RichestCustomerWealth {
     // Output: 10
     public static void main(String[] args) {
         //  int[] number = {{1,2,3},{3,2,1}};
-        int[][] array = {{1, 2, 3}, {3, 2, 1,2}};
+        int[][] array = {{1, 2, 3,2,1}, {3, 2, 1,2}};
 
         maximumWealth(array);
 

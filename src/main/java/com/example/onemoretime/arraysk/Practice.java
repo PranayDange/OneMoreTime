@@ -8,22 +8,25 @@ import java.util.List;
 
 public class Practice {
     public static void main(String[] args) {
+        int[] index = {0, 1, 2, 2, 1};
+        int[] nums = {0, 1, 2, 3, 4};
+        createTargetArray(nums, index);
 
-        //   input ans = {1, 2, 3, 4, 5};
-        //   output ans = [15]
-        int[] ansA = {1, 2, 3, 4, 5};
-        printArraySum(ansA);
 
     }
 
-    static int printArraySum(int[] arr) {
-        int ans = 0;
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = arr[i]+ans;
-            ans=arr[i];
+    public static int[] createTargetArray(int[] nums, int[] index) {
+        List<Integer> ansArr = new ArrayList<>();
+        for (int i = 0; i < index.length; i++) {
+            ansArr.add(index[i], nums[i]);
         }
-        System.out.println(ans);
-        return ans;
+        int target[] = new int[ansArr.size()];
+        for (int i = 0; i < ansArr.size(); i++) {
+            target[i] = ansArr.get(i);
+        }
+        System.out.println(Arrays.toString(target));
+        return target;
+
     }
 
 

@@ -2,7 +2,7 @@ package com.example.onemoretime.arraysk;
 
 import java.util.Arrays;
 
-public class ArraySum {
+public class ArraySum1d {
     public static void main(String[] args) {
         //   input ans = {1, 2, 3, 4, 5};
         //   output ans = [15]
