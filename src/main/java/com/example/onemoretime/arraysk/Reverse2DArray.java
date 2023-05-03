@@ -4,9 +4,9 @@ import java.util.Arrays;
 
 public class Reverse2DArray {
     public static void main(String[] args) {
-        int[][] array = {{1, 1, 0}, {1, 1, 1}, {0, 0, 0}};
-       // flipAndInvertImage(array);
-        reverseColumns2DArray(array);
+        int[][] array = {{1, 1, 0}, {1, 1, 1}, {0, 1, 0,1}};
+        flipAndInvertImage(array);
+       // reverseColumns2DArray(array);
     }
 
     public static int[][] flipAndInvertImage(int[][] image) {
