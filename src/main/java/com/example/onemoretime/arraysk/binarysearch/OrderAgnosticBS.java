@@ -12,7 +12,7 @@ public class OrderAgnosticBS {
         // }else{
         // desending
         // }
-       // int[] arr = {2, 4, 6, 9, 11, 12, 14, 20, 36, 48};
+        // int[] arr = {2, 4, 6, 9, 11, 12, 14, 20, 36, 48};
         int[] arr = {48, 36, 20, 14, 12, 11, 9, 6, 4, 2};
         int target = 9;
         int ans = orderAgnosticBS(arr, target);
