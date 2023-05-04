@@ -10,7 +10,7 @@ public class ArmstrongWithMathPow {
 
     static void armWithMathPow(int num) {
         int temp = num;
-        int sum = 0;
+        int sum = 1;
         while (num != 0) {
             int n = num % 10;
             //sum = sum + Math.pow(n, 3);
