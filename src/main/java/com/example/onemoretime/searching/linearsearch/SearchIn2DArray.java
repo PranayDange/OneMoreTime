@@ -1,4 +1,4 @@
-package com.example.onemoretime.arraysk.linearsearch;
+package com.example.onemoretime.searching.linearsearch;
 
 import java.util.Arrays;
 

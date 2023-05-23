@@ -1,0 +1,26 @@
+Design patterns are reusable solutions to commonly occurring problems in software design.
+They provide a structured approach to solving design problems and help in creating software systems that are flexible, modular, and maintainable.
+Design patterns capture the knowledge and experience of seasoned developers and provide guidelines for designing software architectures.
+
+There are several categories of design patterns, including:
+Creational Patterns: These patterns focus on object creation mechanisms, providing ways to create objects in a flexible and decoupled manner.
+Examples include the Singleton, Factory Method, Abstract Factory, Builder, and Prototype patterns.
+
+
+Structural Patterns: Structural patterns deal with the composition of classes and objects to form larger structures while keeping them flexible and efficient.
+Some commonly used structural patterns include Adapter, Composite, Decorator, Facade, and Proxy.
+
+
+Behavioral Patterns: Behavioral patterns focus on the interaction and communication between objects, defining how they work together to fulfill specific responsibilities.
+Examples of behavioral patterns include Observer, Strategy, Command, Iterator, and Template Method.
+
+
+Architectural Patterns: These patterns provide higher-level guidelines for organizing the overall structure of a software system.
+They define the relationships and interactions between various components of the system.
+Common architectural patterns include Model-View-Controller (MVC), Model-View-ViewModel (MVVM), Layered Architecture, and Microservices.
+
+
+
+Concurrency Patterns: Concurrency patterns address challenges related to designing and managing concurrent and parallel execution in software systems.
+Examples include Thread Pool, Producer-Consumer, Read-Write Lock, and Barrier.
+

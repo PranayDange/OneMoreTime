@@ -6,7 +6,8 @@ public class ReverseAnArray {
     public static void main(String[] args) {
       //  int[] array = {1,2,3,4,5};
         int[] array = {7,5,8,9,12,3};
-        reverseArray(array);
+       // reverseArray(array);
+        reverseArray1(array);
 
     }
     /*static void reverseArray(int[] arr){
@@ -32,6 +33,14 @@ public class ReverseAnArray {
         }
         System.out.println(Arrays.toString(arr));
         return  arr;
+    }
+
+    public static int[] reverseArray1(int[] arr) {
+        for (int i = arr.length-1; i >=0 ; i--) {
+            System.out.print(" "+arr[i]);
+        }
+       // System.out.println();
+        return arr;
     }
 
 }

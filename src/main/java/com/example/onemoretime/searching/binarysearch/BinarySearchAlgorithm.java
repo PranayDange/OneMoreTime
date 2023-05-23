@@ -1,4 +1,4 @@
-package com.example.onemoretime.arraysk.binarysearch;
+package com.example.onemoretime.searching.binarysearch;
 
 public class BinarySearchAlgorithm {
     public static void main(String[] args) {

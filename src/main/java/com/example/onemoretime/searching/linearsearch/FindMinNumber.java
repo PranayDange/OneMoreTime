@@ -1,4 +1,4 @@
-package com.example.onemoretime.arraysk.linearsearch;
+package com.example.onemoretime.searching.linearsearch;
 
 public class FindMinNumber {
     public static void main(String[] args) {
