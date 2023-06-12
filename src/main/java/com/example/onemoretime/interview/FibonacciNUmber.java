@@ -2,12 +2,12 @@ package com.example.onemoretime.interview;
 
 public class FibonacciNUmber {
     public static void main(String[] args) {
-        numOutput(7);
+        numOutput(-1);
     }
 
     static void numOutput(int n) {
         int a = 0;
-        System.out.print(a+" ");
+        System.out.print(a + " ");
         int b = 1;
         System.out.print(b);
 

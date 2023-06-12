@@ -1,0 +1,33 @@
+que ..what are variety of prime number interview question that can be asked??
+ChatGPT
+Prime numbers are a common topic in coding interviews. Here are some example prime number interview questions:
+
+1)Check if a number is prime:
+
+Write a function to determine if a given number is prime.
+Implement a program to check if a number is prime or not.
+
+2)
+Generate prime numbers within a range:
+Write a function to generate all prime numbers within a given range.
+Implement a program to print all prime numbers between n and m.
+
+3)
+Count the number of prime numbers:
+Write a function to count the number of prime numbers less than a given number.
+Implement a program to find the count of prime numbers within a range.
+
+4)
+Prime factorization:
+Write a function to find the prime factors of a given number.
+Implement a program to display the prime factorization of a number.
+
+5)
+Prime number palindrome:
+Write a function to check if a prime number is a palindrome.
+Implement a program to find all prime number palindromes within a given range.
+
+6)
+Prime number sum:
+Write a function to find the sum of all prime numbers within a given range.
+Implement a program to calculate the sum of prime numbers up to a certain limit.
