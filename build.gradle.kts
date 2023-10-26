@@ -1,6 +1,9 @@
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+
 plugins {
     id("java")
     id("org.jetbrains.intellij") version "1.9.0"
+    kotlin("jvm") version "1.9.20-RC"
 }
 
 group = "com.example"
@@ -40,4 +43,15 @@ tasks {
     publishPlugin {
         token.set(System.getenv("PUBLISH_TOKEN"))
     }
+}
+dependencies {
+    implementation(kotlin("stdlib-jdk8"))
+}
+val compileKotlin: KotlinCompile by tasks
+compileKotlin.kotlinOptions {
+    jvmTarget = "17"
+}
+val compileTestKotlin: KotlinCompile by tasks
+compileTestKotlin.kotlinOptions {
+    jvmTarget = "17"
 }
