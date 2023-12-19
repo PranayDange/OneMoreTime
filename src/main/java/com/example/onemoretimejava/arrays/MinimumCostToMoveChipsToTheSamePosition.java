@@ -20,10 +20,24 @@ public class MinimumCostToMoveChipsToTheSamePosition {
                 cost += (diff % 2 == 0) ? 0 : 1; // cost is 0 for even, 1 for odd
             }
 
-                minCost = Math.min(minCost, cost);
+            minCost = Math.min(minCost, cost);
         }
 
         return minCost;
     }
-
 }
+
+
+   /* public static int minCostToMoveChips(int[] position) {
+        int evenCount = 0;
+        int oddCount = 0;
+
+        for (int i = 0; i < position.length; i++) {
+            if (position[i] % 2 == 0) {
+                evenCount++;
+            } else {
+                oddCount++;
+            }
+        }
+
+}*/

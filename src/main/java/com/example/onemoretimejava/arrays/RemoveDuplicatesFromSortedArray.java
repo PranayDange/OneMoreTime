@@ -1,12 +1,14 @@
 package com.example.onemoretimejava.arrays;
 
+import java.util.HashSet;
+
 public class RemoveDuplicatesFromSortedArray {
     public static void main(String[] args) {
         int[] arr = {0, 0, 1, 1, 1, 2, 2, 3, 3, 4};
         removeDuplicates(arr);
     }
 
-    public static int removeDuplicates(int[] nums) {
+    /*public static int removeDuplicates(int[] nums) {
         int totEle = 0;
         if (nums.length == 0) {
             return 0;
@@ -19,5 +21,23 @@ public class RemoveDuplicatesFromSortedArray {
         }
         System.out.println(totEle + 1);
         return totEle + 1;
+    }*/
+
+    public static int removeDuplicates(int[] nums) {
+        int n = nums.length;
+        int ans = 0;
+
+        // Use a HashSet to track unique elements
+        HashSet<Integer> uniqueSet = new HashSet<>();
+
+        for (int i = 0; i < n; i++) {
+            if (uniqueSet.add(nums[i])) {
+                // If the element is added to the HashSet, it is unique
+                nums[ans++] = nums[i];
+            }
+        }
+        System.out.println(ans);
+        return ans;
     }
+
 }
