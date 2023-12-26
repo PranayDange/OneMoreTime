@@ -24,4 +24,22 @@ public class ReverseAnArray {
         arr[start] = arr[end];
         arr[end] = temp;
     }
+    public static void reverse2DArray(int[][] arr) {
+        int len = arr.length;
+        ;
+        //  int[][] resArr=new int[len][];
+        for (int i = 0; i < len; i++) {
+            int rowLength = arr[i].length;
+
+            for (int j = 0; j < rowLength / 2; j++) {
+                int temp = arr[i][j];
+                // arr[i][j] = arr[i][arr[i].length - 1 - j];
+                arr[i][j] = arr[i][rowLength - 1 - j];
+                arr[i][rowLength - 1 - j] = temp;
+            }
+        }
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(Arrays.toString(arr[i]));
+        }
+    }
 }

@@ -3,6 +3,7 @@ package com.example.onemoretimejava.arrays;
 import java.util.Arrays;
 
 public class RunningSumOf1DArray {
+    //this code uses perfix sum
     public static void main(String[] args) {
        /* Input: nums = [1,2,3,4]
         Output: [1,3,6,10]*/
@@ -16,7 +17,7 @@ public class RunningSumOf1DArray {
         int sum = 0;
         for (int i = 0; i < n; i++) {
             sum = sum + nums[i];
-            newArr[i] = sum + newArr[i];
+            newArr[i] = sum;
         }
         System.out.println(Arrays.toString(newArr));
         return newArr;

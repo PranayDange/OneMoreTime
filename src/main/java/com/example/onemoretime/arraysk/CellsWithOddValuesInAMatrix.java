@@ -2,6 +2,11 @@ package com.example.onemoretime.arraysk;
 
 public class CellsWithOddValuesInAMatrix {
     public static void main(String[] args) {
+        // Input: m = 2, n = 3, indices = [[0,1],[1,1]]
+        int m = 2;
+        int n = 3;
+        int[][] indices = {{0, 1}, {1, 1}};
+        oddCells(m, n, indices);
 
     }
 
@@ -30,6 +35,7 @@ public class CellsWithOddValuesInAMatrix {
                 }
             }
         }
+        System.out.println(count);
         return count;
     }
 }

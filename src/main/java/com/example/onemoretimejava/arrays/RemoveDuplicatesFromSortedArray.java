@@ -4,7 +4,7 @@ import java.util.HashSet;
 
 public class RemoveDuplicatesFromSortedArray {
     public static void main(String[] args) {
-        int[] arr = {0, 0, 1, 1, 1, 2, 2, 3, 3, 4};
+        int[] arr = {1,1,2};
         removeDuplicates(arr);
     }
 
@@ -33,11 +33,14 @@ public class RemoveDuplicatesFromSortedArray {
         for (int i = 0; i < n; i++) {
             if (uniqueSet.add(nums[i])) {
                 // If the element is added to the HashSet, it is unique
-                nums[ans++] = nums[i];
+               nums[ans++] = nums[i];
+               // ans++;
             }
+            //uniqueSet.add(nums[i]);
         }
-        System.out.println(ans);
-        return ans;
+        System.out.println(uniqueSet.size());
+        return uniqueSet.size();
     }
+
 
 }
