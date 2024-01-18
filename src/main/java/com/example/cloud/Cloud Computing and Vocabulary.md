@@ -23,3 +23,11 @@ Scaling is a process of
 
 ![Scalability Image](./com/example/cloud/img/scalibility.png)
 <img width="1397" alt="scalibility" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/a8a96566-701b-4a43-bb5f-df4f0b3d661f">
+
+
+Elasticity
++ Elasticity is the ability to scale dynamically
++ User load changes as the day changes
++ image
+
+
