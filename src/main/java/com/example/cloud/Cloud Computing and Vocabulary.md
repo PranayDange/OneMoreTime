@@ -18,3 +18,5 @@ Describe terms such as
 
 Scalability
 ![Scalability Image](./com/example/cloud/img/scalibility.png)
+
+<img width="1440" alt="Screenshot 2024-01-13 at 5 37 58 PM" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/067b8f0f-47ed-4517-8477-77c9ad33232b">
