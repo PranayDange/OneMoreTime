@@ -29,5 +29,6 @@ Elasticity
 + Elasticity is the ability to scale dynamically
 + User load changes as the day changes
 + image
+ <img width="1416" alt="elasticity" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/53e9d7cc-2fe9-474b-a89e-4b796604cae7">
 
 
