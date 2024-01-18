@@ -17,4 +17,4 @@ Describe terms such as
 
 
 Scalability
-![Scalability Image](/com/example/cloud/img/scalibility.png)
+![Scalability Image](./com/example/cloud/img/scalibility.png)
