@@ -17,5 +17,4 @@ Describe terms such as
 
 
 Scalability
-![Scalibility]
-![Screenshot 2024-01-13 at 5.37.58 PM.png](..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2FDesktop%2FScreenshot%202024-01-13%20at%205.37.58%E2%80%AFPM.png)
+![Scalability Image](/com/example/cloud/img/scalibility.png)
