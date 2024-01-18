@@ -2,8 +2,8 @@ package com.example.onemoretime.searching;
 
 public class SquareRoot {
     public static void main(String[] args) {
-        int num =4;
-        mySqrt(num);
+        int num = 4;
+        mySqrt(5);
         mySqrtBS(num);
 
     }
@@ -22,7 +22,7 @@ public class SquareRoot {
     //by binary search
     static int mySqrtBS(int x) {
         int start = 0;
-        int end = x/2;
+        int end = x / 2;
         int ans = 0;
         while (start <= end) {
             int mid = start + (end - start) / 2;

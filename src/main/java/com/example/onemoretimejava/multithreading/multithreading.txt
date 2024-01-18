@@ -1,0 +1,8 @@
+Indroduction to Multithreading
+1)MultiThreading in java is a process of executing multiple threads simultaneously
+2)For Doing Multi tasking we do multi threading
+3)A thread is a lightweight sub-process the smallest uit of processing
+
+Creating threads in java
+1)Runnable  -->interface        ..but if we are using interface then we can extend other
+2)Using Thread  -->class    this both is imported from java.lang ...if we extend this with one class you cannot extend other

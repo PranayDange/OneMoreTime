@@ -9,8 +9,9 @@ public class DefangingAnIPAddress {
     }
 
     public static String defangIPaddr(String address) {
-
-        return address;
+     String newAns=   address.replace(".","[.]");
+        System.out.println(newAns);
+        return newAns;
     }
 
 }
