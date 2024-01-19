@@ -31,4 +31,46 @@ Elasticity
 + image
  <img width="1416" alt="elasticity" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/53e9d7cc-2fe9-474b-a89e-4b796604cae7">
 
+Agility
+Agility the ability to reach quickly
+In cloud there are two provisions the resources
+either manually via portal 
+or
+using automated ways using api's and scripting
+but regarads what choices you make in both cases there is time between request is submitted and response is delivered
+therefore Agility is the ability to allocate and deallocate resources quickly
+image
+
+
+Fault Tolerance
+It is the ability to remain up and running during component and services failure
+Disasters is a serious disruption of services caused by natural or human-induced causes
+Disaster recovery--it simply means creating two copy of the same application in two different azure regions.
+High Availability --it is a measure of system uptime of users/services
+High Availability is the ability to keep services running for extended periods of time with very little downtime
+image
+
+
+
+
+Brief
+Cloud Computing
+Service delivery model over the internet (cloud). This includes but is not limited to
+
+compute power meaning servers such as windows, linux, hosting environments, etc.
+storage like files and/or databases
+networking in azure but also outside when connecting to your company network
+analytics services for visualization and telemetry data
+Key concepts
+scalability is the ability to scale, so allocate and deallocate resources at any time
+elasticity is the ability to scale dynamically
+agility is the ability to react fast (scale quickly)
+fault tolerance is the ability to maintain system uptime while physical and service component failures happen
+disaster recovery is the process and design principle which allows a system to recovers from natural or human induced disasters
+high availability is the agreed level of operational uptime for the system. It is a simple calculation of system uptime versus whole lifetime of the system.
+availability = uptime/(uptime + downtime)
+
+
+
+
 
