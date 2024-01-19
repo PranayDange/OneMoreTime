@@ -40,6 +40,8 @@ using automated ways using api's and scripting
 but regarads what choices you make in both cases there is time between request is submitted and response is delivered
 therefore Agility is the ability to allocate and deallocate resources quickly
 image
+<img width="1206" alt="agility" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/2f8dcd79-7d49-4303-8b1c-77b9b4a6ffaa">
+
 
 
 Fault Tolerance
@@ -49,6 +51,8 @@ Disaster recovery--it simply means creating two copy of the same application in 
 High Availability --it is a measure of system uptime of users/services
 High Availability is the ability to keep services running for extended periods of time with very little downtime
 image
+<img width="1403" alt="high availability" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/c45b8623-75af-43e3-b699-065c771473ea">
+
 
 
 
