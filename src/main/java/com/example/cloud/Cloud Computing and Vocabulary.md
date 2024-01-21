@@ -134,6 +134,25 @@ AZ-900 Episode 5 | IaaS vs PaaS vs SaaS cloud service models |
 +  Infrastructure-as-a-service(Iaas)
 +  Platform-as-a-service(Paas)
 +  Software-as-a-service(Saas)
+Services
+<img width="1411" alt="servies" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/d69f05c6-87ba-4f9f-8c81-dabe3437dc0d">
+
+Infrastructure-as-a-service(Iaas)
+<img width="1440" alt="iaas" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/652ade51-5e61-4aa4-b02b-67defc3983bf">
+<img width="1440" alt="iaas use" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/5158ed96-7e79-4460-bfad-be92806a5d39">
+
+Platform-as-a-service(Paas)
+<img width="1440" alt="pass" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/ccdf5b0c-b56d-41f8-b881-dff5076a79f1">
+<img width="1440" alt="pass use" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/103e9818-ab8a-495e-b2ac-392469ce3e5c">
+
+
+Software-as-a-service(Saas)
+
+<img width="1440" alt="saas" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/2f3eefc8-155f-4352-b78b-f5556bcc80c7">
+<img width="1440" alt="saas use" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/e387b20c-d2d7-4368-9255-6cb5a6a41502">
+
+Difference Between  Iaas,Paas,Saas
+<img width="1440" alt="differences" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/4c3cdc14-172e-4999-874a-528e5d912c7c">
 
 
 
