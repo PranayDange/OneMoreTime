@@ -24,7 +24,6 @@ Scaling is a process of
 + deallocating(removing)
 + resources
 
-![Scalability Image](./com/example/cloud/img/scalibility.png)
 <img width="1397" alt="scalibility" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/a8a96566-701b-4a43-bb5f-df4f0b3d661f">
 
 
@@ -108,6 +107,17 @@ Differences
 
 <font color="red">Episode 4</font>
 AZ-900 Episode 4 | Consumption-based Model |
++ Pay-as-You-Go Pricing
++ Metered Resources
++ Scalability
++ Azure Cost Management and Billing
++ Estimation Tools
++ Reserved Instances and Azure Reservations
+
+  
+<img width="1416" alt="Consumption based model" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/15eafae2-bf77-4619-9f3a-bdf79a67fc0c">
+
+
 
 
 
