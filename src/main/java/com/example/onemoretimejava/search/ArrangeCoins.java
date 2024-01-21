@@ -7,21 +7,21 @@ public class ArrangeCoins {
     }
 
     public static int arrangeCoinsOptimized(int n) {
-        long left = 0, right = n;
+        long start = 1, end = n;
 
-        while (left <= right) {
-            long mid = left + (right - left) / 2;
+        while (start <= end) {
+            long mid = start + (end - start) / 2;
             long total = mid * (mid + 1) / 2;
 
             if (total == n) {
                 return (int) mid;
             } else if (total < n) {
-                left = mid + 1;
+                start = mid + 1;
             } else {
-                right = mid - 1;
+                end = mid - 1;
             }
         }
 
-        return (int) right;  // When the loop ends, right will be the maximum number of complete rows
+        return (int) end;  // When the loop ends, end will be the maximum number of complete rows
     }
 }
