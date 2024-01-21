@@ -91,6 +91,8 @@ Describe the principles of economics and scale
 
 
 <font color="red">Episode 3</font>
+---------
+
 AZ-900 Episode 3 | CapEx vs OpEx and their differences
 Capital and operational expenditure
 
@@ -125,6 +127,13 @@ AZ-900 Episode 4 | Consumption-based Model |
 
   
 <img width="1416" alt="Consumption based model" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/15eafae2-bf77-4619-9f3a-bdf79a67fc0c">
+
+<font color="red">Episode 5</font>
+---------
+AZ-900 Episode 5 | IaaS vs PaaS vs SaaS cloud service models |
++  Infrastructure-as-a-service(Iaas)
++  Platform-as-a-service(Paas)
++  Software-as-a-service(Saas)
 
 
 
