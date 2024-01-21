@@ -84,6 +84,8 @@ availability = uptime/(uptime + downtime)
 
 
 <font color="red">Episode 2</font>
+---------
+
 
 Describe the principles of economics and scale
 
@@ -111,6 +113,8 @@ Differences
 
 
 <font color="red">Episode 4</font>
+---------
+
 AZ-900 Episode 4 | Consumption-based Model |
 + Pay-as-You-Go Pricing
 + Metered Resources
