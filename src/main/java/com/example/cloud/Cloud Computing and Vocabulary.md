@@ -1,9 +1,14 @@
                                        Microsoft Azure Fundamentals Course(900)
 
 <font color="red">Episode 1</font>
-Describe what is cloud computing
-..delivery model for services like -storage(files,databases),Compute Power,Networking,Analytics and more services.
+---------
 
+Describe what is cloud computing: a delivery model for services like
+- Storage (files, databases)
+- Compute Power
+- Networking
+- Analytics
+- More services.
 Compute Power
 Once data is in cloud you need compute power resources like(windows vm,linux,web containers,.or any other)
 Once you have your compute power you need to connect them securely.
