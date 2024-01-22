@@ -160,9 +160,19 @@ Difference Between  Iaas,Paas,Saas
 Cloud Deployment Models
 + Public Hybrid and Private Cloud
 + Describe Public Cloud 
+<img width="1389" alt="public" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/b671e288-453d-47be-8bd0-9b90a5a12b25">
 
-+ Describe Private  Cloud 
+<img width="1373" alt="public ad" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/8fbc90a6-df3c-4e8b-ac9e-7179102aa258">
+
++ Describe Private  Cloud
+<img width="1408" alt="private" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/92898540-878f-4441-be32-0f24e48a77e4">
+
+<img width="1388" alt="privatead" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/187e6eec-0904-4218-bcd9-98f0838b23b5">
+
 + Describe Hybrid Cloud 
+<img width="1424" alt="hybrid" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/51c88708-8fd9-46b9-b796-d8a01f93d04a">
+
+<img width="1392" alt="hybrid ad" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/84118b86-60c4-412a-9386-cfd8f4fbf2c3">
 
 + Compare and contrast the three different cloud development models
 
