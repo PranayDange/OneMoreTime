@@ -130,6 +130,7 @@ AZ-900 Episode 4 | Consumption-based Model |
 
 <font color="red">Episode 5</font>
 ---------
+Service Types
 AZ-900 Episode 5 | IaaS vs PaaS vs SaaS cloud service models |
 +  Infrastructure-as-a-service(Iaas)
 +  Platform-as-a-service(Paas)
@@ -154,8 +155,16 @@ Software-as-a-service(Saas)
 Difference Between  Iaas,Paas,Saas
 <img width="1440" alt="differences" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/4c3cdc14-172e-4999-874a-528e5d912c7c">
 
+<font color="red">Episode 6</font>
+---------
+Cloud Deployment Models
++ Public Hybrid and Private Cloud
++ Describe Public Cloud 
 
++ Describe Private  Cloud 
++ Describe Hybrid Cloud 
 
++ Compare and contrast the three different cloud development models
 
 
 
