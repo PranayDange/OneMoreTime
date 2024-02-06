@@ -196,6 +196,8 @@ Geographies, Regions & Availability Zones
 + Describe Availability Zones --Grouping of physically separate facility,Designed to protect from data center facilities
   if zone gets down others continue working
   this creates replicate services
+
+
 + Describe Geographies -- all region and region pairs are grouped into Geographies
   Typically contains two or more regions
   
@@ -206,8 +208,20 @@ Geographies, Regions & Availability Zones
 Resource,Resource Groups and Resource Manager
 
 - Describe Azure Resource
-  
+<img width="1416" alt="Resources" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/e4cd6d5b-a483-4b14-91af-db60c144914d">
+  <img width="1440" alt="Screenshot 2024-02-06 at 8 36 26 AM" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/2b852faf-7e5c-4dc5-b219-96be8d9f9210">
+
+
 - Describe Azure Resource Group
-- Describe Azure Resource Manager 
+  <img width="1403" alt="Resourcegroup0" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/9aac22fc-ca04-436e-8f82-ca409ed1e09a">
+  
+<img width="1423" alt="Resource group1" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/3af77616-1e23-4904-b5f2-ee01bfe8081a">
+
+<img width="1440" alt="Resourcegroup2" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/85dfb2a5-7b53-4a04-bec4-374823a9e64f">
+
+  
+- Describe Azure Resource Manager
+<img width="1440" alt="ResourceManager" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/e16a933f-4543-45ec-8d13-78047bd974ff">
+
 
 
