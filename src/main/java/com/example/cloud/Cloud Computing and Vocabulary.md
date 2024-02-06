@@ -186,16 +186,25 @@ Geographies, Regions & Availability Zones
   services underneath(server) a physical facility that holds servers is data center
   Physical Facility,Hosting for group of networked servers
   A typical data center has its own power cooling and network infrastructure
+   <img width="1404" alt="datacenter" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/d5d6457f-e106-4e8b-9306-e06ad9a1192b"> 
 + Describe Regions -- A group of data centers that are connected with each other with high throughput internet
   connectivity are called regions(regions can be single data center or multiple one and they are globally distributed)
   Region is simply geographical area on the planet
   one but usually more datacenters connected with low-latency-network(<2milliseconds)
+
+
+  <img width="1379" alt="Region1" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/eef631a4-2774-40df-a7d8-cdad9cf263c1">
+  <img width="1402" alt="region" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/862fa0ad-4bc3-40d1-b14c-cdfb371f65db">
+  <img width="1440" alt="Region2" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/07f3f626-f45f-4899-ad4a-70809d6d6840">
+
   
 + And Regions Pair -- regions are paired if the whole region goes down..the region that is paired with the region that will go up
+ <img width="1440" alt="Region pair" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/fd3707c6-ee5f-44e2-b95b-2bae6d50bce8">
 
 + Describe Availability Zones --Grouping of physically separate facility,Designed to protect from data center facilities
   if zone gets down others continue working
-  this creates replicate services
+this creates replicate services
+  <img width="1440" alt="avalibility zones" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/0d497b46-a2ac-40e3-b31d-cac7ef808e8c">
 
 
 + Describe Geographies -- all region and region pairs are grouped into Geographies
