@@ -201,7 +201,13 @@ Geographies, Regions & Availability Zones
   
 + Describe Benefits and usage of core architectural components
 
+<font color="red">Episode 8</font>
+---------
+Resource,Resource Groups and Resource Manager
 
-
+- Describe Azure Resource
+  
+- Describe Azure Resource Group
+- Describe Azure Resource Manager 
 
 

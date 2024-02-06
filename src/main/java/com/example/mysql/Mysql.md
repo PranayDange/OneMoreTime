@@ -54,4 +54,6 @@ SELECT * FROM cities WHERE city_name LIKE 'B%';
 
 <font color="red"> SQL ORDER BY </font>
 ---------
+SELECT * FROM table_name ORDER BY column1;
 
+//SELECT * FROM (SELECT * FROM table_name ORDER BY column1) AS subquery;
