@@ -1,4 +1,4 @@
-                                       Microsoft Azure Fundamentals Course(900)
+<img width="1440" alt="vm vs containers" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/fba98e72-78e2-473f-8d30-ab98266c8aba">                                       Microsoft Azure Fundamentals Course(900)
 
 https://www.youtube.com/playlist?list=PLGjZwEtPN7j-Q59JYso3L4_yoCjj2syrM
 <font color="red">Episode 1</font>
@@ -271,13 +271,18 @@ Resource,Resource Groups and Resource Manager
 2) set of identical virtual machines
 3) Built in autoscaling features
 4) designed for manual and auto scaling workloads like web services,batch processing etc
+ <img width="1440" alt="vm scale sets" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/2fa90993-286a-42ec-a4b7-2116bf4cf140">
 
+- Vm's Vs Containers
+- <img width="1440" alt="vm vs containers" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/9e30973d-bf37-410f-be51-2ab1e6b4afa0">
 
 - Containers
 1) use host's operating system
 2) Emulate operating system (Virtual Machine emulate hardware)
 3) Lightweight (no o/s)
 - Development Effort
+
+
 - Maintenance
 - Compute and Storage Requirements
 4) Respond Quicker to demand changes
