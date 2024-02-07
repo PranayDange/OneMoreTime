@@ -232,5 +232,33 @@ Resource,Resource Groups and Resource Manager
 - Describe Azure Resource Manager
 <img width="1440" alt="ResourceManager" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/e16a933f-4543-45ec-8d13-78047bd974ff">
 
+<font color="red">Episode 9 Compute Services ||VMs, VM Scale Set, App Service, Functions, ACI, AKS</font>
+---------
+- Describe products available for compute such as
+1) Virtual Machines
+2) Virtual Machines Scale Sets
+3) Container Instances(ACI)
+4) Kubernetes Services(AKS)
+5) App Services
+6) Functions
 
+- Compute Services are category of on demand services used to run cloud based applications
 
+- Virtualization
+1) Emulation of physical machines
+2) Different virtual hardware configuration per machine/app
+3) Different operating system per machine/app
+4) Total Separation of environments
+- file systems
+- services
+- ports
+- middleware
+- configuration
+  Virtualization in cloud is done through azure virtual machine services
+
+- Virtual Machines
+1) Infrastructure as a service(Iaas)
+2) Total Control over the operating system and the software
+3) supports marketplace and custom images
+4) Best Suited for custom software requiring custom system Configuration,Lift and shift scenario
+5) Can Run any application scenario like web apps and web services,databases,desktop applications,gateways etc

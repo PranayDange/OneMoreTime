@@ -42,18 +42,42 @@ This are some clauses in mysql
 
 <font color="red"> Where Clause </font>
 ---------
-SELECT * FROM cities WHERE country = 'USA';
-select * from cities where population Between 5000000 And 10000000;
-SELECT * FROM cities WHERE state = 'New York' AND country = 'USA';
-SELECT * FROM cities WHERE area > 1000;
-SELECT * FROM cities WHERE state IS NOT NULL;
-SELECT * FROM cities WHERE population < 1000000;
-SELECT * FROM cities WHERE country = 'India' AND population > 5000000;
-SELECT * FROM cities WHERE city_name LIKE 'B%';
+1) SELECT * FROM cities WHERE country = 'USA';
+2) select * from cities where population Between 5000000 And 10000000;
+3) SELECT * FROM cities WHERE state = 'New York' AND country = 'USA';
+4) SELECT * FROM cities WHERE area > 1000;
+5) SELECT * FROM cities WHERE state IS NOT NULL;
+6) SELECT * FROM cities WHERE population < 1000000;
+7) SELECT * FROM cities WHERE country = 'India' AND population > 5000000;
+8) SELECT * FROM cities WHERE city_name LIKE 'B%';
 
 
 <font color="red"> SQL ORDER BY </font>
 ---------
-SELECT * FROM table_name ORDER BY column1;
+1) SELECT * FROM table_name ORDER BY column1;
+2) SELECT * FROM table_name ORDER BY column1 * column2 DESC;
+3) SELECT * FROM orders ORDER BY order_date DESC;
+4) select * from cities where area > 1000 order by city_name desc;
 
-//SELECT * FROM (SELECT * FROM table_name ORDER BY column1) AS subquery;
+
+
+<font color="red"> MySQL NULL Values </font>
+---------
+1) SELECT column_names FROM table_name WHERE column_name IS NULL;
+2) SELECT column_names FROM table_name WHERE column_name IS NOT NULL;
+3) select * from cities where city_name is null;
+4) select * from cities where state is not null order by id desc;
+
+<font color="red"> MySQL LIMIT Clause </font>
+---------
+1) SELECT column_name(s)FROM table_name WHERE condition LIMIT number;
+2) select * from cities limit 10;
+3) SELECT * FROM cities LIMIT 3 OFFSET 3;(What if we want to select records 4 - 6 (inclusive)?)
+4) select * from cities order by area desc limit 5;
+5) SELECT * FROM cities WHERE area > 1000 ORDER BY id desc LIMIT 5;
+
+
+<font color="red"> Aggregate Functions MIN(),MAX(),COUNT(), AVG() and SUM() </font>
+---------
+1) SELECT MIN(column_name) FROM table_name WHERE condition;
+2) 
