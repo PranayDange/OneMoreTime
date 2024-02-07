@@ -265,3 +265,20 @@ Resource,Resource Groups and Resource Manager
 4) Best Suited for custom software requiring custom system Configuration,Lift and shift scenario
 5) Can Run any application scenario like web apps and web services,databases,desktop applications,gateways etc
    <img width="1440" alt="virtual machine" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/ccbf2b2f-b5aa-49c7-af82-03b8f8963061">
+
+- Virtual Machines Scale Sets
+1) Infrastructure as a service(Iaas)
+2) set of identical virtual machines
+3) Built in autoscaling features
+4) designed for manual and auto scaling workloads like web services,batch processing etc
+
+
+- Containers
+1) use host's operating system
+2) Emulate operating system (Virtual Machine emulate hardware)
+3) Lightweight (no o/s)
+- Development Effort
+- Maintenance
+- Compute and Storage Requirements
+4) Respond Quicker to demand changes
+5) Designed for almost any scenario
