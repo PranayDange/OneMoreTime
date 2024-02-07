@@ -253,8 +253,10 @@ Resource,Resource Groups and Resource Manager
 - services
 - ports
 - middleware
+
 - configuration
   Virtualization in cloud is done through azure virtual machine services
+<img width="1440" alt="virtualization" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/27c6ced4-8853-4568-b760-d190deadb56c">
 
 - Virtual Machines
 1) Infrastructure as a service(Iaas)
@@ -262,3 +264,4 @@ Resource,Resource Groups and Resource Manager
 3) supports marketplace and custom images
 4) Best Suited for custom software requiring custom system Configuration,Lift and shift scenario
 5) Can Run any application scenario like web apps and web services,databases,desktop applications,gateways etc
+   <img width="1440" alt="virtual machine" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/ccbf2b2f-b5aa-49c7-af82-03b8f8963061">
