@@ -285,5 +285,33 @@ Resource,Resource Groups and Resource Manager
 
 - Maintenance
 - Compute and Storage Requirements
-4) Respond Quicker to demand changes
-5) Designed for almost any scenario
+1) Respond Quicker to demand changes
+2) Designed for almost any scenario
+
+- Container Instances(ACI)
+1) Simplest and fastest way to run a container in azure
+2) Plastform as a service
+3) Serverless Container
+4) Designed For
+- Small and simple web apps/services
+- Background jobs
+- Scheduled script
+
+-  Kubernetes Services(AKS)
+1) open source container orchestration platform
+2) Platform as a service
+3) Highly scalable and customizable
+4) Designed for high scale container developments
+
+- App Service
+1) Designed as enterprise grade web application service
+2) Platform as a service
+3) Supports multiple programming languages and containers
+
+- Azure Functions
+1) Platform as a service
+2) Serverless
+3) Two Hosting/Pricing Models
+- Consumption based
+- Dedicated Plan
+4) Designed for micro/nano services
