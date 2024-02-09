@@ -289,6 +289,7 @@ Resource,Resource Groups and Resource Manager
 2) Designed for almost any scenario
 
 - Container Instances(ACI)
+
 1) Simplest and fastest way to run a container in azure
 2) Plastform as a service
 3) Serverless Container
@@ -296,22 +297,38 @@ Resource,Resource Groups and Resource Manager
 - Small and simple web apps/services
 - Background jobs
 - Scheduled script
+ <img width="1440" alt="aci" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/f583e5b0-5473-42fb-81d6-9183bd92fb63">
+
+
 
 -  Kubernetes Services(AKS)
 1) open source container orchestration platform
 2) Platform as a service
 3) Highly scalable and customizable
 4) Designed for high scale container developments
+ <img width="1440" alt="aks" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/e8519553-0fed-41c0-8e06-11a0f1646987">
+
 
 - App Service
 1) Designed as enterprise grade web application service
 2) Platform as a service
 3) Supports multiple programming languages and containers
+<img width="1440" alt="appservice" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/a77c3016-5bca-4d0d-84a1-09f4eb457d53">
+
 
 - Azure Functions
 1) Platform as a service
-2) Serverless
-3) Two Hosting/Pricing Models
+<img width="1440" alt="azurefunctionsapp" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/265f5630-f001-4127-80a4-96eaf394b902">
+
+
+
+3) Serverless
+4) Two Hosting/Pricing Models
 - Consumption based
 - Dedicated Plan
 4) Designed for micro/nano services
+  
+- Compute Decision Flow  
+<img width="1440" alt="compute dicision flow" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/6dc5c178-dc24-40ec-8907-51d695969ac8">
+
+<img width="1440" alt="last" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/09396190-24bd-496e-ad01-403604013737">
