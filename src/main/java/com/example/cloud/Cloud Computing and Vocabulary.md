@@ -332,3 +332,23 @@ Resource,Resource Groups and Resource Manager
 <img width="1440" alt="compute dicision flow" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/6dc5c178-dc24-40ec-8907-51d695969ac8">
 
 <img width="1440" alt="last" src="https://github.com/PranayDange/OneMoreTime/assets/96629581/09396190-24bd-496e-ad01-403604013737">
+
+
+
+
+<font color="red">Episode 10 | Networking Services | Virtual Network, VPN Gateway, CDN, Load Balancer, App GW</font>
+---------
+- Describe products available for networking such as
+1) Virtual Network
+2) Load Balancer
+3) Vpn Gateway
+4) Application Gateway 
+5) Content Delivery Network
+
+- Azure Networking Services
+1) Connect cloud and on-premise resources
+2) Protect and monitor services
+3) Help with application delivery 
+
+- Azure Virtual Network
+It is emulation of physical networking infrastructure
