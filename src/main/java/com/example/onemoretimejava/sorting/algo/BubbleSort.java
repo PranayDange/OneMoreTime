@@ -1,4 +1,4 @@
-package com.example.onemoretimejava.sorting.bubblesort;
+package com.example.onemoretimejava.sorting.algo;
 
 import java.util.Arrays;
 
@@ -22,6 +22,8 @@ public class BubbleSort {
     }
 
     static void bubbleSort(int[] arr) {
+        int n= arr.length;
+        System.out.println(n);
         boolean swapped;
         //run for n-1 times
         for (int i = 0; i < arr.length; i++) {

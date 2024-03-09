@@ -80,4 +80,21 @@ This are some clauses in mysql
 <font color="red"> Aggregate Functions MIN(),MAX(),COUNT(), AVG() and SUM() </font>
 ---------
 1) SELECT MIN(column_name) FROM table_name WHERE condition;
-2) 
+2) SELECT MIN(sales_amount) AS min_sales_amount
+   FROM sales;
+3) SELECT MAX(sales_amount) AS max_sales_amount
+   FROM sales;
+4) SELECT COUNT(*) AS total_sales_records
+   FROM sales;
+5) SELECT AVG(sales_amount) AS avg_sales_amount
+   FROM sales;
+6) SELECT SUM(sales_amount) AS total_sales_amount
+   FROM sales;
+
+
+<font color="red"> In and Between </font>
+---------
+SELECT * FROM table_name WHERE column_name IN ('value1', 'value2', 'value3');
+SELECT * FROM table_name WHERE column_name BETWEEN value1 AND value2;
+SELECT * FROM products WHERE price BETWEEN 10 AND 50;
+

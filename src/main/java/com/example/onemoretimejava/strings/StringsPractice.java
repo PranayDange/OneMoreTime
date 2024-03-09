@@ -2,19 +2,23 @@ package com.example.onemoretimejava.strings;
 
 import com.example.onemoretime.strings.methods.CharAt;
 
+import java.util.Arrays;
+
 public class StringsPractice {
     public static void main(String[] args) {
         String s = "codeleet";
-        int[] indices = {4, 5, 6, 7, 0, 2, 1, 3};
-        restoreString(s, indices);
+        String indices = "is2 sentence4 This1 a3";
+        sortSentence(indices);
     }
 
-    public static String restoreString(String s, int[] indices) {
-        char[] sc = new char[s.length()];
-        for (int i = 0; i < s.length(); i++) {
-            sc[indices[i]] = s.charAt(i);
+    public static String sortSentence(String s) {
+        String[] words = s.split(" ");
+
+        for (String word : words) {
+            System.out.println(word);
         }
-        System.out.println(String.valueOf(sc));
-        return String.valueOf(sc);
+        Arrays.sort(words);
+        System.out.println(String.join(" ", words));
+        return String.join(" ", words);
     }
 }
