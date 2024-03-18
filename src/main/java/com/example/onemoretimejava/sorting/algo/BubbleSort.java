@@ -15,14 +15,14 @@ public class BubbleSort {
         // int[] arr = {5, 4, 3, 2, 1};
         // int[] arr = {1, 2, 3, 4, 5};
         //int[] arr = {1, 2, 3, 5, 4};
-        int[] arr = {4,5,6,7,8,4,5};
+        int[] arr = {4, 5, 6, 7, 8, 4, 5};
         bubbleSort(arr);
         System.out.println(Arrays.toString(arr));
 
     }
 
     static void bubbleSort(int[] arr) {
-        int n= arr.length;
+        int n = arr.length;
         System.out.println(n);
         boolean swapped;
         //run for n-1 times
