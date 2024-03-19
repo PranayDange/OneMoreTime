@@ -12,6 +12,8 @@
 - Background Running: When the app is running in the background (not visible to the user), but hasn't been stopped or destroyed, the sequence of method calls is onStop().
 - Minimized and Then Reopened: If the app is minimized and then reopened, the sequence of method calls is onRestart(), onStart(), and onResume().
 - Image
+![activity_lifecycle](https://github.com/PranayDange/OneMoreTime/assets/96629581/6a685959-a7da-4a4a-b96a-8b25252f0059)
+
 
 2) Explain the Android architecture
 - The main components of an Android application are:
