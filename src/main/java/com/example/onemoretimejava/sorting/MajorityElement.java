@@ -11,15 +11,16 @@ public class MajorityElement {
     }
 
     public static int majorityElement(int[] nums) {
-
-        for (int i = 0; i < nums.length; i++) {
+        int ans = 0;
+        int n = nums.length;
+        for (int i = 0; i < n; i++) {
             int count = 0;
-            for (int j = 0; j < nums.length; j++) {
+            for (int j = 0; j < n; j++) {
                 if (nums[i] == nums[j]) {
                     count++;
                 }
             }
-            if (count > (nums.length / 2)) {
+            if (count > (n / 2)) {
                 return nums[i];
             }
         }
@@ -33,7 +34,8 @@ public class MajorityElement {
    /* public static int majorityElementHashing(int[] nums) {
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
-
+            int value = map.getOrDefault(nums[i], 0);
+            map.put(nums[i], value + 1);
         }
     }*/
 }

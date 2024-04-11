@@ -2,7 +2,7 @@ package com.example.onemoretime.interview;
 
 public class FibonacciNUmber {
     public static void main(String[] args) {
-        numOutput(-1);
+        numOutput(4);
     }
 
     static void numOutput(int n) {
@@ -20,11 +20,11 @@ public class FibonacciNUmber {
             System.out.println(b);
         } else {
             int c = 0;
-            for (int i = 3; i <= n; i++) {
+            for (int i = 2; i <= n; i++) {
                 c = a + b;
                 a = b;
                 b = c;
-                System.out.print(" " + c);
+              //  System.out.print(" " + c);
             }
             System.out.println();
             System.out.println("last digit" + " " + c);

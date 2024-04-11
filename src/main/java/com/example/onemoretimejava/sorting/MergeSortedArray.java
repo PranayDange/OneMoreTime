@@ -10,34 +10,28 @@ public class MergeSortedArray {
         int n = 3;
         merge(nums1, m, nums2, n);
         //op [1,2,2,3,5,6]
+        for (int i = 0; i < m + n; i++) {
+            System.out.print(nums1[i] + " ");
+        }
     }
 
     public static void merge(int[] nums1, int m, int[] nums2, int n) {
         int[] ansArray = new int[m + n];
-        int i = 0;
-        int j = 0;
-        int k = 0;
-        while (i < m && j < n) {
-            if (nums1[i] < nums2[j]) {
-                ansArray[k] = nums1[i];
-                i++;
+        int i = m - 1;
+        int j = n - 1;
+        int k = m + n - 1;
+        while (j >= 0) {
+            if (i >= 0 && nums1[i] > nums2[j]) {
+                nums1[k] = nums1[i];
+                k--;
+                i--;
             } else {
-                ansArray[k] = nums2[j];
-                j++;
+                nums1[k] = nums2[j];
+                k--;
+                j--;
             }
-            k++;
+
         }
-        while (i < m) {
-            ansArray[k] = nums1[i];
-            i++;
-            k++;
-        }
-        while (j < n) {
-            ansArray[k] = nums2[j];
-            j++;
-            k++;
-        }
-        System.out.println(Arrays.toString(ansArray));
 
     }
 }

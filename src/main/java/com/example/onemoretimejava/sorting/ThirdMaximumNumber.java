@@ -2,8 +2,9 @@ package com.example.onemoretimejava.sorting;
 
 public class ThirdMaximumNumber {
     public static void main(String[] args) {
-        int[] nums = {3, 2, 1};
+        int[] nums = {3, 2, 1, 4, 5, 6,6,8,9,7,12};
         System.out.println(thirdMax(nums));
+        System.out.println(thirdMaxxx(nums));
     }
 
     /* Given an integer array nums, return the third distinct maximum number in this array.
@@ -41,7 +42,7 @@ public class ThirdMaximumNumber {
     public static int thirdMax(int[] nums) {
         // int maxElement = nums[0];
         // int maxElement = Integer.MIN_VALUE;
-        int firstMax = Integer.MIN_VALUE;
+            int firstMax = Integer.MIN_VALUE;
         int secondMax = Integer.MIN_VALUE;
         int thirdMax = Integer.MIN_VALUE;
         for (int num : nums) {
@@ -58,6 +59,40 @@ public class ThirdMaximumNumber {
             }
         }
         //System.out.println(maxElement);
-        return thirdMax != Integer.MIN_VALUE ? thirdMax : firstMax;
+        int result = Math.max(firstMax, thirdMax);
+        //  int result = (thirdMax != Integer.MIN_VALUE) ? thirdMax : firstMax;
+
+        return result;
     }
+
+    //this is the soultion for third max element
+    public static int thirdMaxxx(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            throw new IllegalArgumentException("Array is empty or null.");
+        }
+
+        int firstMax = Integer.MIN_VALUE;
+        int secondMax = Integer.MIN_VALUE;
+        int thirdMax = Integer.MIN_VALUE;
+
+        for (int num : nums) {
+            if (num > firstMax) {
+                thirdMax = secondMax;
+                secondMax = firstMax;
+                firstMax = num;
+            } else if (num > secondMax && num != firstMax) {
+                thirdMax = secondMax;
+                secondMax = num;
+            } else if (num > thirdMax && num != firstMax && num != secondMax) {
+                thirdMax = num;
+            }
+        }
+
+        if (thirdMax != Integer.MIN_VALUE) {
+            return thirdMax;
+        } else {
+            return firstMax; // If there are less than three elements, return the maximum element
+        }
+    }
+
 }

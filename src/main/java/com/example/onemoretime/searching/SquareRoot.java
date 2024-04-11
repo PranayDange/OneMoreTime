@@ -2,8 +2,8 @@ package com.example.onemoretime.searching;
 
 public class SquareRoot {
     public static void main(String[] args) {
-        int num = 4;
-        mySqrt(5);
+        int num = 40;
+        mySqrt(40);
         mySqrtBS(num);
 
     }

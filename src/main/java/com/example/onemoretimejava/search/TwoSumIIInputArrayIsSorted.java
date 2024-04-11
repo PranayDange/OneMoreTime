@@ -18,7 +18,7 @@ public class TwoSumIIInputArrayIsSorted {
                    ans[1]=j;
                     return ans;
                 }
-            }
+            }   
 
         }
         System.out.println(Arrays.toString(ans));

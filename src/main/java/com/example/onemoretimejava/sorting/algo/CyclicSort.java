@@ -5,7 +5,8 @@ import java.util.Arrays;
 public class CyclicSort {
     //it has to be continuous array
     public static void main(String[] args) {
-        int[] arr = {3, 5, 2, 1, 4};
+        // int[] arr = {3, 5, 2, 1, 4};
+        int[] arr = {3, 5, 2, 1, 4, 0};
         //int[] arr = {3, 54, 12, 111, 49};//this will give error as cyclic sort can be implemented in continuous manner
         cyclicSort(arr);
         System.out.println(Arrays.toString(arr));
@@ -14,7 +15,8 @@ public class CyclicSort {
     static void cyclicSort(int[] arr) {
         int i = 0;
         while (i < arr.length) {
-            int correctIndex = arr[i] - 1;
+            // int correctIndex = arr[i] - 1;//if zero is not there in array
+            int correctIndex = arr[i];//if zero is there in array
             if (arr[i] != arr[correctIndex]) {
                 swapArray(arr, i, correctIndex);
             } else {

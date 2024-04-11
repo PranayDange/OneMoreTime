@@ -33,4 +33,23 @@ public class GuessNumberHigherOrLower {
 
         return n;
     }*/
+
+   /* public int guessNumberOptimized(int n) {
+        // int pick =10;
+        int s = 1;
+        int e = n - 1;
+        while (s <= e) {
+            int m = s + (e - s) / 2;
+            if (guess(m) == 0) {
+                return m;
+            } else if (guess(m) == -1) {
+                e = m - 1;
+            } else {
+                s = m + 1;
+            }
+
+        }
+
+        return n;
+    }*/
 }

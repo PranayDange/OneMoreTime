@@ -8,6 +8,8 @@ public class OrderAgnosticBS {
         int ans = orderAgnostic(arr2, target);
         System.out.println(ans);
     }
+    //in order agnostic binary search we do not know array is sorted in ascending or desending
+    //so we need to check that
 
     static int orderAgnostic(int[] arr, int target) {
         int start = 0;
