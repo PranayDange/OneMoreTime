@@ -28,6 +28,16 @@ public class CheckIfTwoStringArraysAreEquivalent {
         for (String s : word2) {
             s2.append(s);
         }
+
+       /* for (int i = 0; i < word1.length; i++) {
+            s1.append(word1[i]);
+        }
+
+        for (int i = 0; i < word2.length; i++) {
+            s2.append(word2[i]);
+        }*/
+
+
         System.out.println(s1);
         System.out.println(s2);
         return s1.toString().contentEquals(s2);

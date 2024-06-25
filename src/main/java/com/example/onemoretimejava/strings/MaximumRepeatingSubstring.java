@@ -16,4 +16,23 @@ public class MaximumRepeatingSubstring {
         }
         return maxK;
     }
+    public static int maxRepeatingg(String sequence, String word) {
+        int maxK = 0;
+        int wordLength = word.length();
+        int sequenceLength = sequence.length();
+
+        for (int i = 0; i <= sequenceLength - wordLength; i++) {
+            int count = 0;
+            for (int j = i; j + wordLength <= sequenceLength; j += wordLength) {
+                if (sequence.substring(j, j + wordLength).equals(word)) {
+                    count++;
+                } else {
+                    break;
+                }
+            }
+            maxK = Math.max(maxK, count);
+        }
+
+        return maxK;
+    }
 }

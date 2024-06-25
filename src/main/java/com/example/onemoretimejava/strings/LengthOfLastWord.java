@@ -34,4 +34,34 @@ public class LengthOfLastWord {
             return str;
         }
     }
+
+    public static String removeLastWord(String str) {
+        if (str == null || str.isEmpty()) {
+            return str;
+        }
+
+        int lastSpaceIndex = str.lastIndexOf(' ');
+
+        if (lastSpaceIndex == -1) {
+            // There is no space in the string, so return an empty string
+            return "";
+        }
+
+        // Return the substring excluding the last word
+        return str.substring(0, lastSpaceIndex);
+    }
+    public static String getLastWord2(String input) {
+        if (input == null || input.isEmpty()) {
+            return "";  // Return an empty string if input is null or empty
+        }
+
+        input = input.trim(); // Remove leading and trailing whitespace
+        String[] words = input.split("\\s+"); // Split the string by whitespace
+
+        if (words.length == 0) {
+            return ""; // Return an empty string if there are no words
+        }
+
+        return words[words.length - 1]; // Return the last word
+    }
 }

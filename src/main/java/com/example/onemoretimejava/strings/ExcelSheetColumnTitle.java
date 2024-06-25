@@ -7,12 +7,15 @@ public class ExcelSheetColumnTitle {
     }
 
     public static String convertToTitle(int columnNumber) {
-        String ans = "";
+        String ans="";
+       // StringBuilder ans = new StringBuilder();
         while (columnNumber > 0) {
             int remainder = (columnNumber - 1) % 26;
             ans = (char) ('A' + remainder) + ans;
+            //for using stringbuilder
+          //  ans.insert(0, (char) ('A' + remainder));
             columnNumber = (columnNumber - 1) / 26;
         }
-        return ans;
+        return ans.toString();
     }
 }

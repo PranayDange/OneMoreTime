@@ -16,7 +16,8 @@ public class BubbleSort {
         // int[] arr = {1, 2, 3, 4, 5};
         //int[] arr = {1, 2, 3, 5, 4};
         int[] arr = {4, 5, 6, 7, 8, 4, 5};
-        bubbleSort(arr);
+       // bubbleSort(arr);
+        bubbleSort2(arr);
         System.out.println(Arrays.toString(arr));
 
     }
@@ -48,4 +49,28 @@ public class BubbleSort {
 
         }
     }
+
+    static void bubbleSort2(int[] arr) {
+        int n = arr.length;
+        boolean swapped;
+        for (int i = 0; i < n; i++) {
+            swapped = false;
+            for (int j = 1; j < n - i; j++) {
+                if (arr[j] < arr[j - 1]) {
+                    swap(arr, j, j - 1);
+                    swapped = true;
+                }
+            }
+            if (!swapped) {
+                break;
+            }
+        }
+    }
+
+    static void swap(int[] arr, int first, int second) {
+        int temp = arr[first];
+        arr[first] = arr[second];
+        arr[second] = temp;
+    }
+
 }

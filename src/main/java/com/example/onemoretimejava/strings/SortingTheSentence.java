@@ -17,9 +17,9 @@ public class SortingTheSentence {
         for (int j = 0; j < words.length; j++) {
             String word = words[j];
             // int index = Integer.parseInt(word.substring(words.length() - 1));
-            int index = Integer.parseInt(word.substring(word.length() - 1));
+            int index = Integer.parseInt(word.substring(word.length() - 1));// Get the last character and convert to integer
 
-            String thatWord = word.substring(0, word.length() - 1);
+            String thatWord = word.substring(0, word.length() - 1); // Get the word without the last character
             map.put(index, thatWord);
             System.out.println("Key: " + index + ", Value: " + thatWord);
 
@@ -35,7 +35,7 @@ public class SortingTheSentence {
 
         // Reconstruct the original sentence using StringBuilder
         StringBuilder reconstructedSentence = new StringBuilder();
-        for (int k = 1; k < words.length; k++) {
+        for (int k = 1; k <= words.length; k++) {
             System.out.println(map.size());
             reconstructedSentence.append(map.get(k)).append(" ");
             System.out.println(map.get(k));

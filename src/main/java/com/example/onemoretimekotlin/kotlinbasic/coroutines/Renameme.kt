@@ -1,6 +1,7 @@
 package com.example.onemoretimekotlin.kotlinbasic.coroutines
 
 object Renameme {
+    //ONE
     @JvmStatic
     fun main(args: Array<String>) {
         //Coroutine
@@ -34,6 +35,17 @@ object Renameme {
         //one thread can have many coroutines
         //co--coating routines--functions
         //task are coprated so that there is minimum use of threads
+        val list = listOf("")
+        var arr: Array<Int> = arrayOf(1,2,3)
+        var name:IntArray=IntArray(1)
+
+        var listPair= listOf(Pair(1 to 1,"pranay"),Pair(2,"rajura"),Pair("pranay",1))
+        println(listPair.first())
+        println(listPair[1])
+        var listTriple= listOf(Triple(1,2,3),Pair(2,"rajura"))
+        println(listTriple.first())
+
+        var listt= listOf(Pair(1,2),Pair(2,"Pranay"))
 
     }
 }

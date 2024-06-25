@@ -31,4 +31,11 @@ public class CyclicSort {
         arr[first] = arr[second];
         arr[second] = temp;
     }
+
+    /*Examples of Problems Suitable for Cyclic Sort
+    Finding Missing Number: Given an array containing 𝑛
+    n distinct numbers taken from 0, 1, 2, ..., n, find the one that is missing from the array.
+    Finding All Missing Numbers: Given an array of integers where 1 ≤ a[i] ≤ n (n = size of the array), find all the integers from 1 to n that do not appear in the array.
+    Finding Duplicate Numbers: Given an array of integers where 1 ≤ a[i] ≤ n (n = size of the array), find all the elements that appear more than once.
+    Finding First Missing Positive: Given an unsorted integer array, find the smallest missing positive integer.*/
 }
