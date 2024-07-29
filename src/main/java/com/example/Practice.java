@@ -4,27 +4,20 @@ import java.util.Arrays;
 
 public class Practice {
     public static void main(String[] args) {
-        int[] arr = {3, 2, 3};
-        int i = majorityElement(arr);
-        System.out.println(i);
+        int[] arr = {2, 5, 1, 3, 4, 7};
+        int num = 3;
+        shuffle(arr, num);
     }
 
-    public static int majorityElement(int[] nums) {
-        int n = nums.length;
-        int ans = 0;
-        int count = 0;
-        for (int i = 0; i < n - 1; i++) {
+    public static int[] shuffle(int[] nums, int n) {
+        int[] arr = new int[2 * n];
+        int len = nums.length;
+        int j = 0;
+        for (int i = 0; i < n; i++) {
+            arr[2 * i] = nums[i];
+            arr[2 * i + 1] = nums[i + n];
 
-            //  for(int j=0;j<n;j++){
-            if (nums[i] == nums[i + 1]) {
-                count++;
-            }
-
-            // }
-            if (count > n / 2) {
-                return nums[i];
-            }
         }
-        return count;
+        return arr;
     }
 }

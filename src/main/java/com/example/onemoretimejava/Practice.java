@@ -5,37 +5,61 @@ import java.util.Arrays;
 
 public class Practice {
     public static void main(String[] args) {
-        int[] arr = {4, 5, 6, 7, 8, 4, 5};
-        //int[] arr = {3, 54, 12, 111, 49};//this will give error as cyclic sort can be implemented in continuous manner
-        cyclicSort(arr);
-        System.out.println(Arrays.toString(arr));
+        // int[] arr = {5, 4, 3, 2, 1};
+        // int[] arr = {1, 2, 3, 4, 5};
+        //int[] arr = {1, 2, 3, 5, 4};
+       /* int[] arr = {4, 5, 6, 7, 8, 4, 5};
+        // bubbleSort(arr);
+        bubbleSort2(arr);
+        System.out.println(Arrays.toString(arr));*/
+        System.out.println(checkIfPangram("thequickbrownfoxjumpsoverthelazydog"));
+
     }
 
 
-    static void cyclicSort(int[] arr) {
-        for (int i = 0; i < arr.length; i++) {
-            int lastIndex = arr.length - i - 1;
-            int max = getMarIndex(arr, 0, lastIndex);
-            swap(arr, max, lastIndex);
+    public static void bubbleSort2(int[] arr) {
+        int n = arr.length - 1;
+
+        for (int i = 0; i < n; i++) {
+
+            for (int j = i + 1; j > 0; j--) {
+                if (arr[j] < arr[j - 1]) {
+                    swap(arr, j, j - 1);
+
+                } else {
+                    break;
+                }
+            }
 
         }
+
+
+
     }
 
-    private static void swap(int[] arr, int first, int lastIndex) {
+    static void swap(int[] arr, int first, int second) {
         int temp = arr[first];
-        arr[first] = arr[lastIndex];
-        arr[lastIndex] = temp;
+        arr[first] = arr[second];
+        arr[second] = temp;
     }
 
-    private static int getMarIndex(int[] arr, int first, int last) {
-        int ans = 0;
-        for (int i = first; i <= last; i++) {
-            if (arr[ans] < arr[i]) {
-                ans = i;
+
+    public static boolean checkIfPangram(String sentence) {
+        boolean isAnagram = false;
+        for(int i=0;i<sentence.length();i++){
+            char ca = sentence.charAt(i);
+            for(char c = 'A';c<'Z';c++){
+                if (ca == c) {
+                    isAnagram = true;
+                    break;
+                }
             }
         }
-        return ans;
+        return isAnagram;
     }
-
-
 }
+
+
+
+
+
