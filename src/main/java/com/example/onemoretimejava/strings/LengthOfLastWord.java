@@ -6,6 +6,17 @@ public class LengthOfLastWord {
         System.out.println(lengthOfLastWord(s));
     }
 
+    public static int lengthOfLastWord7(String s) {
+        int ans = 0;
+        String trimmedString = s.trim();
+        String[] splitString = trimmedString.split("\\s");
+        if (splitString.length > 0) {
+            String lastWord = splitString[splitString.length - 1];
+            ans = lastWord.length();
+        }
+        return ans;
+    }
+
     public static int lengthOfLastWord(String s) {
 
         String lastWord = getLastWord(s);

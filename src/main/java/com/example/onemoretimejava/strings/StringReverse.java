@@ -3,7 +3,10 @@ package com.example.onemoretimejava.strings;
 public class StringReverse {
     public static void main(String[] args) {
         String ss = "pranay's";
-        System.out.println(reverse(ss));
+        // System.out.println(reverse(ss));
+        // reverseStringBuilder(ss);
+
+        reverseUsingLoop(ss);
     }
 
     public static String reverse(String s) {
@@ -20,5 +23,23 @@ public class StringReverse {
         String revered = new String(charArray);
         System.out.println(revered);
         return revered;
+    }
+
+    public static void reverseStringBuilder(String s) {
+        String original = s;
+        StringBuilder sb = new StringBuilder(original);
+        String reversed = sb.reverse().toString();
+        System.out.println(reversed); // Output: olleH
+
+    }
+
+    public static void reverseUsingLoop(String s) {
+        char[] ss = s.toCharArray();
+        String reversed = "";
+        for (int i = ss.length - 1; i >= 0; i--) {
+            reversed = reversed + ss[i];
+        }
+        System.out.println(reversed);
+
     }
 }

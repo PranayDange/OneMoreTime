@@ -23,4 +23,25 @@ public class LongestCommonPrefix {
         }
         return ans;
     }
+
+
+        public static String longestCommonPrefix2(String[] strs) {
+            StringBuilder builder = new StringBuilder();
+            String firstString = strs[0];
+
+            // O(n*m) solution
+            // n is the size of the first string, m is the size of strs array
+            for (int i = 0; i < firstString.length(); i++) {
+                for(int j = 1; j < strs.length; j++) {
+                    if (i == strs[j].length())
+                        return builder.toString();
+                    if (firstString.charAt(i) != strs[j].charAt(i))
+                        return builder.toString();
+                }
+                builder.append(firstString.charAt(i));
+            }
+
+            return builder.toString();
+        }
+
 }

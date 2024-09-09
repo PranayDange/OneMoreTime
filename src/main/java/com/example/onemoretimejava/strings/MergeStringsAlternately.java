@@ -1,10 +1,10 @@
 package com.example.onemoretimejava.strings;
 
-public class MergeStringsAlternately {
+public class  MergeStringsAlternately {
     public static void main(String[] args) {
-        String word1 = "abc";
-        String word2 = "pqr";
-        System.out.println(mergeAlternately(word1, word2));
+        String word1 = "ab";
+        String word2 = "pqrs";
+        System.out.println(mergeAlternately2(word1, word2));
         //a p b q c r
     }
 
@@ -26,4 +26,36 @@ public class MergeStringsAlternately {
         }
         return ans;
     }
+    public static String mergeAlternately2(String word1, String word2) {
+        StringBuilder ans = new StringBuilder();
+        int maxLength = Math.max(word1.length(), word2.length());
+
+        for (int i = 0; i < maxLength; i++) {
+            if (i < word1.length()) {
+                ans.append(word1.charAt(i));
+            }
+            if (i < word2.length()) {
+                ans.append(word2.charAt(i));
+            }
+        }
+
+        return ans.toString();
+    }
+
+    public String mergeAlternately3(String word1, String word2) {
+        String ans = "";
+        int maxLength = Math.max(word1.length(), word2.length());
+
+        for (int i = 0; i < maxLength; i++) {
+            if (i < word1.length()) {
+                ans += word1.charAt(i);
+            }
+            if (i < word2.length()) {
+                ans += word2.charAt(i);
+            }
+        }
+
+        return ans;
+    }
+
 }

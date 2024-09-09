@@ -2,7 +2,7 @@ package com.example.onemoretimejava.strings;
 
 public class ExcelSheetColumnTitle {
     public static void main(String[] args) {
-        int columnNumber = 28;
+        int columnNumber = 701;
         System.out.println(convertToTitle(columnNumber));
     }
 
@@ -16,6 +16,6 @@ public class ExcelSheetColumnTitle {
           //  ans.insert(0, (char) ('A' + remainder));
             columnNumber = (columnNumber - 1) / 26;
         }
-        return ans.toString();
+        return ans;
     }
 }

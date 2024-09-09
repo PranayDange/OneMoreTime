@@ -33,4 +33,16 @@ public class ReverseWordsInAStringIII {
 
     }
 
+    public String reverseWords3(String s) {
+        StringBuilder result = new StringBuilder();
+        String words[] = s.split(" ");
+        for (int i = 0; i < words.length; i++) {
+            result.append(new StringBuilder(words[i]).reverse());
+            if (i < words.length - 1) {
+                result.append(" ");
+            }
+        }
+        return result.toString();
+    }
+
 }

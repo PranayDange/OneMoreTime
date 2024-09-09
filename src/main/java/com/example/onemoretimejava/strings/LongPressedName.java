@@ -3,7 +3,7 @@ package com.example.onemoretimejava.strings;
 public class LongPressedName {
     public static void main(String[] args) {
         String name = "alex";
-        String typed = "aaleex";
+        String typed = "aaaleex";
         System.out.println(isLongPressedName(name, typed));
 
     }

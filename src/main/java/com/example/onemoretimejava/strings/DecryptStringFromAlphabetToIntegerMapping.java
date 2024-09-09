@@ -20,7 +20,9 @@ public class DecryptStringFromAlphabetToIntegerMapping {
                 i += 2; //// Skip the next two characters and the '#'
             } else {
                 // Handle the single digit case
-                int num = s.charAt(i) - '0';
+                //int num = s.charAt(i) - '0';
+                String numberStr = s.substring(i, i + 1); // Get the single character as a substring
+                int num = Integer.parseInt(numberStr);
                 char ch = (char) ('a' + num - 1);
                 result.append(ch);
             }
