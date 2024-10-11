@@ -27,6 +27,23 @@ public class SqrtX {
         return high;
     }
 
+    public static int mySqrt(int x) {
+        int low = 1, high = x;
+        //Binary search on the answers:
+        while (low <= high) {
+            long mid = low+(high - low) / 2;
+            long value = mid * mid;
+            if (value <= (long)(x)) {
+                //eliminate the left half:
+                low = (int)(mid + 1);
+            } else {
+                //eliminate the right half:
+                high = (int)(mid - 1);
+            }
+        }
+        return high;
+    }
+
     public static int mySqrtUsingLinearSearch(int x) {
         int ans = 1;
         for (int i = 0; i <= x; i++) { //this is linear search

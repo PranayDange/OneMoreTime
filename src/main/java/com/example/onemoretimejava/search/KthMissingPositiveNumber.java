@@ -11,13 +11,19 @@ public class KthMissingPositiveNumber {
     }
 
     public static int findKthPositive(int[] arr, int k) {
-        int ans = 0;
-        for (int i = 0; i < arr.length * 2; i++) {
-            for (int j = 0; j < arr.length; j++) {
+        int left = 0, right = arr.length;
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            int missing = arr[mid] - (mid + 1);
 
+            if (missing < k) {
+                left = mid + 1;
+            } else {
+                right = mid;
             }
         }
-        return ans;
+
+        return left + k;
     }
     /* public static int findKthPositive(int[] arr, int k) {
      *//*int n = arr.length;
