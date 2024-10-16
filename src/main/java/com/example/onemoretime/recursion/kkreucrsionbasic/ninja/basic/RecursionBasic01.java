@@ -1,4 +1,4 @@
-package com.example.onemoretime.recursion.kkreucrsionbasic.ninja;
+package com.example.onemoretime.recursion.kkreucrsionbasic.ninja.basic;
 
 
 public class RecursionBasic01 {
