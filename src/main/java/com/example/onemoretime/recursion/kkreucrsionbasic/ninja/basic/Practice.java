@@ -8,7 +8,7 @@ public class Practice {
         //printNumbers(5);
         // System.out.println(numOfDigits(123));
         //System.out.println(fibo(6));
-      //  printNumbers(5);
+        //  printNumbers(5);
         printNumbersReverse(5);
     }
 
