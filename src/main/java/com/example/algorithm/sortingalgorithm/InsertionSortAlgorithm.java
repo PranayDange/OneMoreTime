@@ -52,7 +52,7 @@ public class InsertionSortAlgorithm {
 
     static void insertionSortRecusive(int[] arr, int n) {
         // Base case: If the array has only one element, it is already sorted.
-        if (n <= 1) {
+        if (n == 1) {
             return;
         }
         insertionSortRecusive(arr, n - 1);

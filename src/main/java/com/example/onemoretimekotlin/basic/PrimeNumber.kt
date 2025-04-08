@@ -2,7 +2,8 @@ package com.example.onemoretimekotlin.basic
 
 fun main(args: Array<String>) {
     //isPrime(8);
-    allPrimeNumbersTillANumber(9)
+    //allPrimeNumbersTillANumber(9)
+    nullChecking()
 }
 
 fun isPrime(n: Int) {
@@ -40,4 +41,11 @@ fun allPrimeNumbersTillANumber(n: Int) {
 
         }
     }
+
+}
+
+fun nullChecking(){
+    var sting:String?=null
+    println(sting?.length?:"pranay")
+
 }

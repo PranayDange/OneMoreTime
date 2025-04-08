@@ -14,7 +14,7 @@ public class SelectionSortAlgorithm {
         //In-Place	Yes	Swaps elements directly in the original array, without needing extra space proportional to input.
 
         int[] arr = {4, 5, 6, 0, 7, 8, 4, 5};
-        selectionSortIterative(arr);
+        selectionSortRecursive(arr,arr.length-1);
 
         //selectionSortIterative(arr);
         System.out.println(Arrays.toString(arr));
@@ -47,7 +47,7 @@ public class SelectionSortAlgorithm {
 
 
     static void selectionSortRecursive(int[] arr, int last) {
-        if (last <= 0) {
+        if (last == 0) {
             return;
         }
 
