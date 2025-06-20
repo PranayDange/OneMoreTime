@@ -119,11 +119,11 @@ public class TwoPointerApproach {
         When reversing a linked list, you don’t need two pointers; instead, you modify the next pointers of each node to reverse the list.
                 java
 
-        public ListNode reverseList(ListNode head) {
-            ListNode prev = null;
-            ListNode curr = head;
+        public ListNodeAddTwoNumbers reverseList(ListNodeAddTwoNumbers head) {
+            ListNodeAddTwoNumbers prev = null;
+            ListNodeAddTwoNumbers curr = head;
             while (curr != null) {
-                ListNode nextTemp = curr.next;
+                ListNodeAddTwoNumbers nextTemp = curr.next;
                 curr.next = prev;
                 prev = curr;
                 curr = nextTemp;
