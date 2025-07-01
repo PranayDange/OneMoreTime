@@ -28,6 +28,8 @@ fun main() {
 
     // calculator(2,2,(a,b)->a*b))
 
+
+
 }
 
 fun calculator(a: Int, b: Int, op: (Int, Int) -> Int): Int {
