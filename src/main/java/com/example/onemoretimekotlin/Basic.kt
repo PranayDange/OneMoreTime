@@ -66,3 +66,21 @@ fun main() {
 
 
 }
+
+fun processResult(result: Result) {
+    when (result) {
+        is Result.Success->{
+
+        }
+
+        is Result.Failure -> TODO()
+        Result.Loading -> TODO()
+    }
+}
+
+
+sealed class Result {
+    data class Success(val data: String) : Result()
+    data class Failure(val msg: String) : Result()
+    data object Loading : Result()
+}
